@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-color: #333; */
+    font-family: sans-serif;
+
+}
+
+.haz-time {
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(to bottom, #f5f5f5, #afafaf); */
+    background: white;
+}
+
+.time-contain {
+    position: relative;
+    width: 440px;
+    height: 230px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: #f1f1f1; */
+    background-color: #F5EFE7;
+    color: #333;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.time-types {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    border-bottom: 1px solid black;
+    /* color: #213555; */
+}
+
+.time-types p {
+    font-size: 17px;
+}
+
+.time-types img {
+    position: absolute;
+    width: 20px;
+    display: inline-block;
+}
+
+.time-types p:hover {
+    font-weight: bold;
+}
+
+/* start part time-show */
+.time-show {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.time-show-contain {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    /* transform: translate(80%, -50%); */
+    font-weight: bold;
+}
+
+
+
+.time-show #inputHours,
+.time-show #inputMinutes,
+.time-show #inputSeconds {
+    border: none;
+    outline: none;
+    width: 1.4rem;
+    font-size: 20px;
+    background: transparent;
+    font-weight: bold;
+}
+
+.time-show input[type="number"]::-webkit-inner-spin-button,
+.time-show input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.finl-show {
+    font-size: 20px;
+    
+    font-weight: bold;
+}
+/* end part time-show */
+
+
+
+/* القسم السفلي */
+.time-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    /* background: coral; */
+    border-top: 1px solid black;
+}
+
+.time-control .time-icon img {
+    width: 20px;
+}
+
+.time-control .time-buttons .btn {
+    padding: 4px;
+    transition: .3s;
+}
+
+.time-control .time-buttons .btn:first-child {
+    color: #1a73e8;
+
+}
+
+.time-control .time-buttons .btn:first-child:hover {
+    background-color: #333;
+    color: #afafaf;
+}
+
+.time-control .time-buttons .btn:last-child {
+    color: #fff;
+    background-color: #1a73e8;
+    border: 1px solid #1a73e8;
+    margin-left: 5px;
+}
+
+.time-control .time-buttons .btn:last-child:hover {
+    background-color: #0e5ca9;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The CSS File -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Timer task</title>
+</head>
+<body>
+    <div class="haz-time">
+        <!-- It will contain all items -->
+        <div class="time-contain"> 
+            <!-- It will contain STOPWATCH And TIMER -->
+            <div class="time-types">
+                <p><del>STOPWATCH</del><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNnB4IiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzhBQjRGOCI+CiAgICA8cGF0aCBkPSJNMCAwaDQ4djQ4SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMzAgMkgxOHY0aDEyVjJ6bS04IDI2aDRWMTZoLTR2MTJ6bTE2LjA1LTEzLjIzbDIuODUtMi44NWMtLjg2LTEuMDMtMS44LTEuOTctMi44My0yLjgzbC0yLjg1IDIuODVDMzIuMTUgOS40OCAyOC4yNCA4IDIzLjk5IDggMTQuMDQgOCA2IDE2LjA2IDYgMjZzOC4wNCAxOCAxNy45OSAxOFM0MiAzNS45NCA0MiAyNmMwLTQuMjUtMS40OC04LjE1LTMuOTUtMTEuMjN6TTI0IDQwYy03LjczIDAtMTQtNi4yNy0xNC0xNHM2LjI3LTE0IDE0LTE0IDE0IDYuMjcgMTQgMTQtNi4yNyAxNC0xNCAxNHoiLz4KPC9zdmc+Cg==" alt="" srcset=""></p>
+                <p>TIMER<img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNnB4IiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzhBQjRGOCI+CiAgICA8cGF0aCBkPSJNMTIgNXYxMGw5IDktOSA5djEwaDI0VjMzbC05LTkgOS05VjVIMTJ6bTIwIDI5djVIMTZ2LTVsOC04IDggOHptLTgtMTJsLTgtOFY5aDE2djVsLTggOHoiLz4KICAgIDxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoNDh2NDhIMFYweiIvPgo8L3N2Zz4K" alt="" srcset=""></p>
+            </div>
+            <div class="time-show">
+                <div class="time-show-contain">
+                    <input type="number" id="inputHours" name="hours" min="0" max="24" placeholder="00">
+                    <label for="inputHours" id="label-hours">h</label>
+                    <input type="number" id="inputMinutes" name="minutes" min="0" max="60" placeholder="00">
+                    <label for="inputMinutes" id="label-minutes">m</label>
+                    <input type="number" id="inputSeconds" name="seconds" min="0" max="60" placeholder="00">
+                    <label for="inputSeconds" id="label-seconds">s</label>
+                    <div class="finl-show">
+                    </div>
+                </div>
+            </div>
+            <div class="time-control">
+                <div class="time-icon">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAK0lEQVR4AWNAgFEwCv6jQnxyQ9MgAoBog0YNGoJgFNAxHY0aNBKK2lEwCgCCjZtl7xalSwAAAABJRU5ErkJggg==" alt="" srcset="">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAGFBMVEVMaXEAAAAAAAAAAAAAAAAAAAAAAAAAAACrC2ehAAAACHRSTlMA2IAX/16rO6dkyYQAAACdSURBVHgB3ZI1EgJhGEMfXuI1egDsAEhYWjgD26P3xz3M/P2+NvNpQiKp9PiP6uCkQVrjdGGlSc8LBHRV9QIBBU28QABHNa1A3EoWViAA4sgKxBIYqfdbIKIe5NX8LRAqQUElXugOmgK1GS6oB/ECXFhCdw4uNMNCuJUP93XDB9pL7Ilbf6K93YzKaRaw1sIQhePjgQtH1ENt1EkcZynLNG+pHaRaAAAAAElFTkSuQmCC" alt="" srcset="" class="soundHaz">
+                </div>
+                <div class="time-buttons">
+                    <button class="btn btn-reset">RESET</button>
+                    <button class="btn btn-start">START</button>
+                </div>
+            </div>
+        </div>
+        <div class="texthaz">
+            
+        </div>
+        <script src="JS/main.js"></script>
+        <!-- <script src="JS/testFeature.js"></script> -->
+    </div>
+</body>
+</html>
