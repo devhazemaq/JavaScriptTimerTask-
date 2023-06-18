@@ -1,3 +1,5 @@
+ https://devhazemaq.github.io/JavaScriptTimerTask-/
+
 # Google Timer
 
 This project is a Google timer implementation using HTML, CSS, and JavaScript. It was assigned as a task in the React course. The goal is to create a timer without using any UI libraries, jQuery, or any other external library.
